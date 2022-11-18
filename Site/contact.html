@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <title>La Plateforme</title>
+  <link rel="stylesheet" href="laplateforme.css">
+
+</head>
+
+<header>
+
+    <a href="index.html"><img src="logo_laplateforme.png" class="logoacc" alt="Accueil La Plateforme"/></a>
+    <label for="menu-cb" class="menu-label">
+      <svg viewBox="0 0 32 32" fill="#666">
+        <rect x="0" y="4" rx="3" ry="3" width="32" height="3" />
+        <rect x="0" y="14" rx="3" ry="3" width="32" height="3" />
+        <rect x="0" y="24" rx="3" ry="3" width="32" height="3" />
+      </svg>
+    </label>
+    <input id="menu-cb" type="checkbox" class="menu-cb">
+    <nav class="menu-nav">
+      <ul>
+        <li class="menu-item"><a href="qui-sommes-nous.html">Qui sommes-nous ?</a></li>
+        <li class="menu-item"><a href="aws-restart.html">AWS Restart</a></li>
+        <li class="menu-item"><a href="contact.html">Contact</a></li>
+        <li class="menu-item"><a href="news.html">News</a></li>
+        <li class="menu-item"><a href="plateforme-start.html">La Plateforme Start</a></li>
+      </ul>
+    </nav>
+
+</header>
+
+<body>
+
+  <pre class="pcenter">
+Vous souhaitez des informations ou
+candidater à La Plateforme_ ?
+  </pre>
+
+  <div class="cbody">
+  <div class="contactez-nous">
+    <h1 class="tcontact">Remplissez ce formulaire et nous reviendrons vers vous</h1>
+    <form action="/page-traitement-donnees" method="post">
+
+      <div>
+        <label for="formation"></label>
+        <select name="formation" id="formation" required>
+          <option value="">La formation qui vous intéresse</option>
+          <option value="Coding School">Coding School</option>
+          <option value="AI School">AI School</option>
+          <option value="Security School">Security School</option>
+          <option value="Bachelor IT">Bachelor IT</option>
+          <option value="Développeur web - TOULON">Développeur web - TOULON</option>
+          <option value="Code à la carte - TOULON">Code à la carte - TOULON</option>
+          <option value="Code à la carte - BRIGNOLES">Code à la carte - BRIGNOLES</option>
+          <option value="Executive Education">Executive Education</option>
+          <option value="La Plateforme / START">La Plateforme / START</option>
+          <option value="Innovation Lab">Innovation Lab</option>
+          <option value="AWS re/Start">AWS re/Start</option>
+         </select>
+      </div>
+
+      <div>
+        <label for="entretien"></label>
+        <select name="entretien" id="entretien" required>
+          <option value="">Souhaitez-vous passer un entretien préalable au test d'entrée ?</option>
+          <option value="Oui, je souhaite passer un entretien avec un membre de l&#039;équipe pédagogique pour avoir de plus amples informations">Oui, je souhaite passer un entretien avec un membre de l'équipe pédagogique pour avoir de plus amples informations</option>
+          <option value="Non, je souhaite candidater et passer le test d&#039;entrée sans entretien préalable">Non, je souhaite candidater et passer le test d'entrée sans entretien préalable</option>
+        </select>
+         </select>
+      </div>
+
+      <div>
+        <label for="prenom"></label>
+        <input type="text" id="prenom" name="prenom" placeholder="Prénom" required>
+      </div>
+
+      <div>
+        <label for="nom"></label>
+        <input type="text" id="nom" name="nom" placeholder="Nom" required>
+      </div>
+
+      <div>
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+      </div>
+
+      <div>
+        <label for="tel"></label>
+        <input type="text" id="tel" name="tel" placeholder="Téléphone" required>
+      </div>
+
+      <div>
+        <label for="adresse"></label>
+        <input type="text" id="adresse" name="adresse" placeholder="Adresse" required>
+      </div>
+
+      <div>
+        <label for="cp"></label>
+        <input type="text" id="cp" name="cp" placeholder="Code postal" required>
+      </div>
+
+      <div>
+        <label for="ville"></label>
+        <input type="text" id="ville" name="ville" placeholder="Nom" required>
+      </div>
+
+      <div>
+        <label for="message"></label>
+        <textarea id="message" name="message" placeholder="Message" required></textarea>
+      </div>
+
+      <div>
+        <button type="submit">Envoyer</button>
+      </div>
+
+    </form>
+  </div>
+</div>
+
+</body>
+
+<footer>
+
+  <div class="grid4">
+
+      <div>
+
+        <img src="logo_laplateforme.png" alt="Accueil La Plateforme" class="logof">
+        <a href="https://www.facebook.com/LaPlateformeIO" target="_blank"><img src="logofb.png" alt="Facebook" class="fimg"></a><a href="https://www.instagram.com/LaPlateformeIO/" target="_blank"><img src="logoig.png" alt="Instagram" class="fimg"></a><a href="https://www.linkedin.com/school/laplateformeio/" target="_blank"><img src="logoli.png" alt="LinkedIn" class="fimg"></a><a href="https://twitter.com/LaPlateformeIO" target="_blank"><img src="logotw.png" alt="Twitter" class="fimg"></a><a href="https://www.youtube.com/c/LaPlateformeIO" target="_blank"><img src="logoyt.png" alt="YouTube" class="fimg"></a>
+
+      </div>
+
+      <div>
+        <p class="fpb">La Plateforme</p>
+
+        <a href="index.html" class="fpc">Accueil</a><br>
+        <a href="qui-sommes-nous.html" class="fpc">Qui sommes-nous ?</a>
+        <a href="news.html" class="fpc">News</a>
+
+      </div>
+
+      <div>
+        <p class="fpb">Les Formations</p>
+
+        <a href="aws-restart.html" class="fpc">AWS Restart</a><br>
+        <a href="plateforme-start.html" class="fpc">La Plateforme Start</a>
+
+      </div>
+
+      <div>
+        <p class="fpb">Informations</p>
+
+        <pre class="fpc">
+8 rue d’hozier, 13002 Marseille
+
+Tel : 04.84.89.43.69
+
+<button onclick="window.location.href = 'contact.html'" class="fbutton">Contact</button>
+        </pre>
+
+      </div>
+
+
+  </div>
+
+</footer>
+
+</html>
